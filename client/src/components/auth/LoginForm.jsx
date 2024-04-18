@@ -32,7 +32,7 @@ const LoginForm = ({
       </div>
       <div className="links">
         <NavLink to="/forgotpassword">Forgot Password</NavLink>
-        <NavLink to="/signup">Signup</NavLink>
+        <NavLink to="/signup">New User ? Register</NavLink>
       </div>
       <div className="inputBox">
         <input type="submit" value="Login" />
