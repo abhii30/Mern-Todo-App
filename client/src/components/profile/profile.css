@@ -14,11 +14,11 @@
 }
 
 .heading div button:first-child {
-    background: #16ad16;
+    background: #3fc73f;
     font-size: 16px;
 }
 .heading div button:last-child {
-    background: #411edf;
+    background: #df1e2e;
     font-size: 16px;
 }
 
@@ -28,7 +28,7 @@
     gap: 15px;
     margin: auto auto;
     padding: 25px;
-    background: #ffffff;
+    background: #d1f8f1;
     border-radius: 10px;
     box-shadow: 0 7px 13px #0000002c;
     max-width: 70%;
@@ -44,7 +44,9 @@
     padding: 10px;
     font-size: 18px;
     color: #1f1f1f;
+    background-color: white;
     box-shadow: 0 3px 25px #0000000e;
+    border-radius: 10px;
 }
 
 .delete-profile { 
@@ -52,7 +54,7 @@
 }
 
 .edit-profile { 
-    background: #000;
+    background: #4681ce;
 }
 
 .edit-form {

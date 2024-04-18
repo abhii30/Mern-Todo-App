@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   outline: none;
 }
 
 body {
   background: #fbfeff;
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   min-height: 100vh;
   overflow-x: hidden;
 }
@@ -27,7 +27,7 @@ button {
   border-radius: 7px;
   color: #ffffff;
   cursor: pointer;
-  background: #ff9114;
+  background: #1fc577;
 }
 
 a {
@@ -54,11 +54,11 @@ li {
 }
 
 .home-page h1 {
-  background: linear-gradient(to right, #ff00cc, #3333ff); 
-  -webkit-background-clip: text; 
-  -webkit-text-fill-color: transparent;  
-  background-clip: text;  
-  text-fill-color: transparent;  
+  background: linear-gradient(to right, #af6868, #7835c4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
   text-align: center;
 }
 
@@ -72,7 +72,7 @@ li {
 }
 .home-page p span:last-child {
   color: #ff0000;
-  font-size: 25px; 
+  font-size: 25px;
 }
 
 .main-container {
@@ -82,15 +82,15 @@ li {
 }
 
 .content-container {
-  width: 80%; 
-} 
+  width: 80%;
+}
 
 .section-heading {
   font-size: 30px;
   padding: 10px 20px;
-  color: #2929e0;
-  font-family: 'Quicksand', sans-serif;
-  border-bottom: 3px solid #0060ff4d;
+  color: #b444ca;
+  font-family: "Quicksand", sans-serif;
+  border-bottom: 5px solid #4fcc644d;
 }
 
 .routing-content {

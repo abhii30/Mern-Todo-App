@@ -90,7 +90,7 @@ const CompletedTodos = () => {
         </label>
       </div>
       {filteredCompletedTodos.length === 0 ? (
-        <p>No completed todos found.</p>
+        <p className="no-todo">No completed todos found.</p>
       ) : (
         <ul className="todos-container">
           {filteredCompletedTodos.map((todo) => (
