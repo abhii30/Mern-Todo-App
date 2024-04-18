@@ -45,7 +45,7 @@ const SignupForm = ({
         <label>Password</label>
       </div>
       <div className="links">
-        <a href="/forgotpassword">Forgot Password</a>
+        {/* <a href="/forgotpassword">Forgot Password</a> */}
         <a href="/login">Already Registered ? Login</a>
       </div>
       <div className="inputBox">

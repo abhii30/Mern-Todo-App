@@ -17,8 +17,8 @@ nav .left-nav {
 }
 
 .left-nav .bar {
-  font-size: 35px;
-  transform: rotate(90deg);
+  /* font-size: 15px; */
+  /* transform: rotate(90deg); */
   cursor: pointer;
 }
 
@@ -48,7 +48,7 @@ nav .profile {
   top: 80px;
   margin-top: 10px;
   z-index: 2;
-  border-right: 2px solid #84c4e2;
+  border-right: 5px solid #4fcc644d;
 }
 
 .sidebar-container {
@@ -60,7 +60,8 @@ nav .profile {
   padding: 5px 15px;
   font-size: 16px;
   background: #ffffff;
-  box-shadow: 0 3px 4px #00000036;
+  margin: auto;
+  /* box-shadow: 0 3px 4px #00000036; */
 }
 
 .sidebar-container .option a {
@@ -69,6 +70,7 @@ nav .profile {
   display: flex;
   gap: 3px;
   align-items: center;
+  margin: auto;
 }
 
 .sidebar-icon {
@@ -78,7 +80,7 @@ nav .profile {
 .sidebar-container .option a.active {
   color: #1f22d4;
   font-weight: 600;
-  font-size: 17px;
+  font-size: 18px;
 }
 
 

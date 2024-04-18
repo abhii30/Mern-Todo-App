@@ -1,7 +1,5 @@
-import React from "react";
-// import { NavLink } from "react-router-dom";
-import { MdBarChart } from "react-icons/md";
-import { MdAccountCircle } from "react-icons/md";
+import TodoIcon from "../../assests/todo.png";
+import ProfileIcon from "../../assests/profile.png";
 import "./navbar.css";
 
 const Navbar = () => {
@@ -9,12 +7,12 @@ const Navbar = () => {
     <nav className="flex">
       <div className="left-nav flex">
         <div className="bar">
-          <MdBarChart></MdBarChart>
+          <img src={TodoIcon} alt="" />
         </div>
-        <div className="logo">TodoList</div>
+        <div className="logo">Get It Done</div>
       </div>
       <div className="profile flex">
-        <MdAccountCircle></MdAccountCircle>
+        <img src={ProfileIcon} alt="" />
       </div>
     </nav>
   );

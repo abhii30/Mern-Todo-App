@@ -138,7 +138,6 @@ const Profile = () => {
       <div className="flex heading section-heading">
         <h1>Profile</h1>
         <div>
-          <button>Change Password</button>
           <button onClick={handleLogout}>Logout</button>
         </div>
       </div>

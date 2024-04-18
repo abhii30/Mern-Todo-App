@@ -31,7 +31,7 @@ const LoginForm = ({
         <label htmlFor="password">Password</label>
       </div>
       <div className="links">
-        <NavLink to="/forgotpassword">Forgot Password</NavLink>
+        {/* <NavLink to="/forgotpassword">Forgot Password</NavLink> */}
         <NavLink to="/signup">New User ? Register</NavLink>
       </div>
       <div className="inputBox">

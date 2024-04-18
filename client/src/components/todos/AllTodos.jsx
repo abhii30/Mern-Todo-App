@@ -150,15 +150,7 @@ const Todos = () => {
   return (
     <>
       <h1 className="section-heading">All Todos</h1>
-      <div className="filter-container">
-        <label>
-          Filter by:
-          <select value={filterOption} onChange={handleFilterChange}>
-            <option value="newest">Newest</option>
-            <option value="oldest">Oldest</option>
-          </select>
-        </label>
-      </div>
+
       <form onSubmit={addTodo} className="add-todo-form">
         <textarea
           name="new-todo"
@@ -173,6 +165,15 @@ const Todos = () => {
         ></textarea>
         <button type="submit">Add Todo</button>
       </form>
+      <div className="filter-container">
+        <label>
+          Filter by:
+          <select value={filterOption} onChange={handleFilterChange}>
+            <option value="newest">Newest</option>
+            <option value="oldest">Oldest</option>
+          </select>
+        </label>
+      </div>
       {filteredTodos.length === 0 ? (
         <p>No todos found.</p>
       ) : (
